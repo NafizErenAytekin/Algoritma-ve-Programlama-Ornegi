@@ -100,22 +100,22 @@ public class Main
                     case 2 -> selectionSort.selectionSort();
                     case 3 -> bubbleSort.bubbleSort();
                     case 4 -> countingSort.countingSort();
-                    case 5 ->shellSort.shellSort();
-                    case 6 ->mergeSort.mergeSort();
-                    case 7 ->quickSort.quickSort();
-                    case 8 ->quickSort3.quickSort3();
-                    case 9 ->heapSort.heapSort();
-                    case 10 ->radixSort.radixSort();
-                    case 11 ->shakerSort.shakerSort();
-                    case 12 ->randomSort.randomSort();
-                    case 13 ->luckySort.luckySort();
-                    case 14 ->serseriSort.serseriSort();
-                    case 15 ->flashSort.flashSort();
-                    case 16 ->combSort.combSort();
-                    case 17 ->gnomeSort.gnomeSort();
-                    case 18 ->permSort.permSort();
-                    case 19 ->strandSort.strandSort();
-                    case 20 ->kovaSort.kovaSort();
+                    case 5 -> shellSort.shellSort();
+                    case 6 -> mergeSort.mergeSort();
+                    case 7 -> quickSort.quickSort();
+                    case 8 -> quickSort3.quickSort3();
+                    case 9 -> heapSort.heapSort();
+                    case 10 -> radixSort.radixSort();
+                    case 11 -> shakerSort.shakerSort();
+                    case 12 -> randomSort.randomSort();
+                    case 13 -> luckySort.luckySort();
+                    case 14 -> serseriSort.serseriSort();
+                    case 15 -> flashSort.flashSort();
+                    case 16 -> combSort.combSort();
+                    case 17 -> gnomeSort.gnomeSort();
+                    case 18 -> permSort.permSort();
+                    case 19 -> strandSort.strandSort();
+                    case 20 -> kovaSort.kovaSort();
                 }
             }
             case 3 ->

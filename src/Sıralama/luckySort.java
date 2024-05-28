@@ -34,11 +34,16 @@ public class luckySort {
 
             // Rastgele sayıları seç
             for (int i = 0; i < secilenler.length; i++) {
-                secilenler[i] = rand.nextInt(n);
+                secilenler[i] = rand.nextInt(n) + 1; // 0 yerine 1'den başlatarak sıfıra bölme hatasını önle
             }
 
             // Seçilen sayıların toplamını hesapla
             int toplam = Arrays.stream(secilenler).sum();
+
+            // Eğer toplam 0 ise, tekrar rastgele sayılar seç
+            if (toplam == 0) {
+                continue;
+            }
 
             // Seçilen sayılara göre diziyi böl
             for (int i = 0; i < n; i++) {
